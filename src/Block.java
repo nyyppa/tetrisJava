@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.ArrayList;
 
 public interface Block {
@@ -21,7 +22,11 @@ public interface Block {
      */
     public void rotate(RotationDirection rotationDirection);
 
-    // TODO: 18.1.2024 add pointThySelf Method
+    /**
+     * Tell to block to paint itself in given Grapics component
+     * @param g
+     */
+    public void paintYourSelf(Graphics g);
 
     /**
      * removes coordinates from the block,
