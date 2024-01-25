@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3426bf7-ecca-4760-bb89-c6eca4799683" name="Changes" comment="-Added interface to represent tetris block&#10;-Added enum to represent blocks desired move direction&#10;-added enum to represent blocks desired rotation direction">
-      <change afterPath="$PROJECT_DIR$/src/GameComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameWindow.java" afterDir="false" />
+    <list default="true" id="f3426bf7-ecca-4760-bb89-c6eca4799683" name="Changes" comment="-added paintYourSelf method to Block interface&#10;-added GameWindow JFrame&#10;-added GameComponent JComponent">
+      <change afterPath="$PROJECT_DIR$/src/BasicBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StaticModifiers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,12 +71,19 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1705531345191</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="-added paintYourSelf method to Block interface&#10;-added GameWindow JFrame&#10;-added GameComponent JComponent">
+      <created>1705878986408</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1705878986408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="-Added interface to represent tetris block&#10;-Added enum to represent blocks desired move direction&#10;-added enum to represent blocks desired rotation direction" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Added interface to represent tetris block&#10;-Added enum to represent blocks desired move direction&#10;-added enum to represent blocks desired rotation direction" />
+    <MESSAGE value="-added paintYourSelf method to Block interface&#10;-added GameWindow JFrame&#10;-added GameComponent JComponent" />
+    <option name="LAST_COMMIT_MESSAGE" value="-added paintYourSelf method to Block interface&#10;-added GameWindow JFrame&#10;-added GameComponent JComponent" />
   </component>
 </project>
