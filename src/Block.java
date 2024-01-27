@@ -3,10 +3,7 @@ import java.util.ArrayList;
 
 public interface Block {
 
-    /**
-     *holds blocks parts coordinates
-     */
-    ArrayList<ArrayList<Integer>> coordinates=null;
+
 
     /**
      * moves the block in given direction,
