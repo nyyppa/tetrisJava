@@ -9,5 +9,11 @@ public class StaticModifiers {
     static int getLineWidth(){
         return 5;
     }
+    static int getBlockWidth(){
+        return 20;
+    }
+    static int getBlockHeight(){
+        return 20;
+    }
 
 }

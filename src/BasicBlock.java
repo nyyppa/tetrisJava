@@ -6,9 +6,10 @@ public class BasicBlock implements Block{
     /**
      *holds blocks parts coordinates
      */
-    ArrayList<ArrayList<Integer>> coordinates = null;
+    ArrayList<Coordinate> coordinates = null;
+    Color color=Color.BLUE;
 
-    public BasicBlock(ArrayList<ArrayList<Integer>> InitialCoordinates){
+    public BasicBlock(ArrayList<Coordinate> InitialCoordinates){
         coordinates=InitialCoordinates;
     }
 
@@ -24,7 +25,10 @@ public class BasicBlock implements Block{
 
     @Override
     public void paintYourSelf(Graphics g) {
-
+        for(Coordinate coordinate:coordinates){
+            g.setColor(color);
+            g.fillRect(StaticModifiers.getLineWidth()+coordinate.getX()*StaticModifiers.getBlockWidth()+StaticModifiers.getLineWidth()*coordinate.getX(),StaticModifiers.getLineWidth()+coordinate.getY()*StaticModifiers.getBlockHeight()+StaticModifiers.getLineWidth()*coordinate.getY(),StaticModifiers.getBlockWidth(),StaticModifiers.getBlockHeight());
+        }
     }
 
     @Override
